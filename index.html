@@ -543,8 +543,9 @@ html,body{opacity:1!important;visibility:visible!important}
 .tf-format-desc strong{font-weight:700;}
 .tf-format-dark .tf-format-desc{color:#FFFFFF;}
 .tf-format-card .tf-format-desc + .tf-format-desc{margin-top:14px;}
-.tf-invest-methods{display:flex;gap:20px;margin:16px 0;}
-.tf-invest-method{display:flex;align-items:center;gap:8px;font-family:'Raleway',sans-serif;font-size:1rem;color:#FFFFFF;}
+.tf-invest-methods{display:flex;gap:12px;margin:16px 0;flex-wrap:wrap;}
+.tf-invest-method{display:flex;align-items:center;justify-content:center;gap:10px;width:fit-content;padding:9px 16px;border-radius:10px;border:1px solid rgba(255,255,255,.1);background:#EDE0D3;font-family:'Raleway',sans-serif;font-weight:400;font-size:clamp(.8125rem, .75rem + .3vw, .875rem);color:#311507;white-space:nowrap;}
+@media(max-width:400px){.tf-invest-method{padding:8px 12px;gap:8px;}}
 .tf-invest-wrap{margin-top:0;height:100%;}
 .tf-invest-wrap .tf-format-card{height:100%;}
 .tf-map-card{height:100%;position:relative;border-radius:15px;overflow:hidden;min-height:280px;}
