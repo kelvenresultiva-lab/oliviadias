@@ -20,7 +20,7 @@ async function ghFetch(path, options = {}) {
     headers: {
       'Authorization': `Bearer ${token}`,
       'Accept': 'application/vnd.github+json',
-      'User-Agent': 'joao-blog-admin',
+      'User-Agent': 'oliviadias-blog-admin',
       ...(options.headers || {}),
     },
   });
