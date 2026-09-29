@@ -817,7 +817,7 @@ html,body{opacity:1!important;visibility:visible!important}
     published.slice(0, 6).forEach(function(p){
       var a = document.createElement('a');
       a.className = 'tf-blog-card';
-      a.href = '/blog/' + p.slug + '.html';
+      a.href = '/blog/' + p.slug;
       var img = p.coverImage ? '<img class="tf-blog-card-img" src="' + p.coverImage + '" alt="' + p.title + '"/>' : '<div class="tf-blog-card-img"></div>';
       var dateFmt = '';
       try { dateFmt = new Date(p.date + 'T12:00:00').toLocaleDateString('pt-BR', {day:'2-digit', month:'long', year:'numeric'}); } catch(e) { dateFmt = p.date; }
@@ -833,7 +833,7 @@ html,body{opacity:1!important;visibility:visible!important}
 <section class="elementor-element elementor-element-8ec6804 e-con e-atomic-element e-flexbox-base e-8ec6804-357ff97" data-e-type="e-flexbox" data-element_type="e-flexbox" data-id="8ec6804" data-interaction-id="8ec6804">
 <p class="e-8d137ca-1084c7c e-paragraph-base" data-e-type="widget" data-id="8d137ca" data-interaction-id="8d137ca">© Copyright 2026. Todos os direitos reservados.</p>
 <div style="display:flex;align-items:center;gap:16px;">
-<a href="/politica-de-privacidade.html" style="font-family:'Raleway',sans-serif;font-weight:500;font-size:1rem;color:#AE988A;letter-spacing:-0.005em;text-decoration:none;">Política de Privacidade</a>
+<a href="/politica-de-privacidade" style="font-family:'Raleway',sans-serif;font-weight:500;font-size:1rem;color:#AE988A;letter-spacing:-0.005em;text-decoration:none;">Política de Privacidade</a>
 <div class="elementor-element elementor-element-d1d254d elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="d1d254d" data-widget_type="heading.default">
 <div class="elementor-widget-container">
 <span class="elementor-heading-title elementor-size-default">Página desenvolvida por <span class="destaque-14">Resultiva</span></span> </div>
