@@ -38,8 +38,8 @@ body.jb-blog-body{
 }
 .jb-post-content{font-size:17px;line-height:1.8;color:var(--jb-text);}
 .jb-post-content p{margin:0 0 20px;}
-.jb-post-content h2{font-family:ivypresto-display,serif;font-weight:300;font-style:italic;font-size:1.6rem;margin:36px 0 14px;color:var(--jb-heading);}
-.jb-post-content h3{font-family:ivypresto-display,serif;font-weight:300;font-style:italic;font-size:1.3rem;margin:28px 0 12px;color:var(--jb-heading);}
+.jb-post-content h2{font-family:'Poppins',sans-serif;font-weight:500;font-size:1.5rem;margin:36px 0 14px;color:var(--jb-heading);}
+.jb-post-content h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:1.2rem;margin:28px 0 12px;color:var(--jb-heading);}
 .jb-post-content ul,.jb-post-content ol{margin:0 0 20px;padding-left:24px;}
 .jb-post-content a{color:var(--jb-dark-green);}
 .jb-post-content img{max-width:100%;border-radius:12px;}
