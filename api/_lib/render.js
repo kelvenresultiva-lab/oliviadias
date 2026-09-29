@@ -52,7 +52,7 @@ function renderPostPage(post) {
 ${post.coverImage ? `<meta content="${escapeHtml(post.coverImage)}" property="og:image"/>` : ''}
 <link href="/assets/olivia-icon-dark.png" rel="icon" sizes="32x32"/>
 <link href="/assets/782b342f846f2900_dxs1xze.css" media="all" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="/blog/blog.css" rel="stylesheet"/>
 </head>
 <body class="jb-blog-body">

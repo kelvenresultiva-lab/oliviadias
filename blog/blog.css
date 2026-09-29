@@ -33,7 +33,7 @@ body.jb-blog-body{
 .jb-post-cover{width:100%;border-radius:16px;margin-bottom:28px;display:block;object-fit:cover;max-height:420px;}
 .jb-post-date{color:#888;font-size:13px;letter-spacing:.04em;text-transform:uppercase;margin:0 0 8px;}
 .jb-post-title{
-  font-family:ivypresto-display,serif;font-weight:300;color:var(--jb-heading);
+  font-family:'Poppins',sans-serif;font-weight:400;color:var(--jb-heading);
   font-size:2.4rem;line-height:1.15;margin:0 0 28px;
 }
 .jb-post-content{font-size:17px;line-height:1.8;color:var(--jb-text);}
